@@ -1,12 +1,27 @@
-# 各种贴图的意思
+# 常见的通道贴图和各种贴图的意思
 
-Albedo：漫反射贴图，用于模拟表面的漫反射
-AO:环境光遮挡贴图，用于模拟表面的环境光遮挡
-alphaMap：透明度贴图，用于模拟表面的透明度
-normalMap：法线贴图，用于模拟表面的凹凸
-occlusionMap：遮挡贴图，用于模拟表面的遮挡
-roughnessMap：粗糙度贴图，用于模拟表面的粗糙度
-Material：材质，用于模拟表面的材质
+Diffuse/Albedo/Basecolor:漫反射/基础颜色贴图，用于模拟表面的漫反射
+
+Reflection/Specular:反射
+
+Metalness/Material:金属度
+
+Glossiness:光泽度
+
+roughnessMap:粗糙度贴图，用于模拟表面的粗糙度
+
+normalMap:法线贴图，用于模拟表面的凹凸
+
+Displacement/Height:置换
+
+Bump:凹凸
+
+Ambient Occlusion(AO):环境光遮挡贴图，用于模拟表面的环境光遮挡
+
+alphaMap:透明度贴图，用于模拟表面的透明度
+
+occlusionMap:遮挡贴图，用于模拟表面的遮挡
+
 Paint：油漆，用于模拟表面的油漆
 
 # 制作材质球
